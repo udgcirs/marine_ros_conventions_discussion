@@ -13,12 +13,11 @@ float32 angle_increment  # angular distance between measurements [rad]
 
 float32 beam_width       # in radians. Across track and along track or only one?
 float32 frequency        # [Hz]
-float32 range_resolution # [% of range error], along track and across track?
+float32 range_resolution # [% of range error]
 
-float32 time_increment   # time between measurements [seconds] - if your scanner
-                         # is moving, this will be used in interpolating position
-                         # of 3d points
-float32 scan_time        # time between scans [seconds]
+float32 time_increment   # For a mechanically scanning sonar this is the time between measurements [seconds]
+                         # This will be used in interpolating position of 3d points.
+                         # For a multibeam sonar this value should be zero.
 
 float32 range_min        # minimum range value [m]
 float32 range_max        # maximum range value [m]
