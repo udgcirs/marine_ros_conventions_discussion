@@ -6,6 +6,6 @@ The list of messages to be defined is:
 * Waypoint --> To be defined
 * List of waypoints  --> To be defined
 
-This is a discussion package, therefore, you are welcome add comments to 
+This is a discussion package, therefore, you are welcome to contribute to
 the current definitions as well as to propose new messages that can be 
 useful for the community.
