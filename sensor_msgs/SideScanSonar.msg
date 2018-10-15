@@ -1,7 +1,7 @@
 # Single scan from a side scan sonar
 
 Header header                    # timestamp in the header is the acquisition time of
-                                 # the first ray in the scan.
+                                 # the whole beam.
                                  #
                                  # in frame frame_id, angles are measured around
                                  # the positive Z axis (counterclockwise, if Z is up)
@@ -9,7 +9,6 @@ Header header                    # timestamp in the header is the acquisition ti
 
 float32 horizontal_beam_width    # [rad]
 float32 vertical_beam_width      # [rad]
-float32 range_resolution         # [% of range], along track and across track?
 float32 frequency                # in Hz
 
 float32 range_min                # minimum range value [m]
